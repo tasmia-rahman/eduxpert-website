@@ -23,7 +23,8 @@
 }
 
 .register-btn,
-.more-courses-btn {
+.more-btn,
+.modal-btn {
     font-size: 20px;
     line-height: 30px;
     color: #289BDE;
@@ -70,17 +71,20 @@
 /* Banner part ends */
 
 /* Courses part starts */
-.discover-courses .title-info {
+.discover-courses .courses-title-info {
     margin: 130px 230px 70px;
 }
 
-.discover-courses .title-info h1 {
+.discover-courses .courses-title-info h1,
+.learning-institute-info-details h1,
+.ready-to-join h1 {
     font-size: 45px;
     line-height: 60px;
     color: #1D1D1D;
 }
 
-.discover-courses .title-info p {
+.discover-courses .courses-title-info p,
+.ready-to-join p {
     font-size: 16px;
     line-height: 30px;
     color: #777777;
@@ -109,10 +113,44 @@
     color: #289BDE;
 }
 
-.more-courses-btn {
+.more-btn {
     color: white;
     background-color: #289BDE;
     border: 1px solid #289BDE;
 }
 
 /* Courses part ends */
+
+/* Learning institute part starts */
+.learning-institute-info {
+    background: #F4FAFD;
+
+}
+
+.learning-institute-info-details p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+
+/* Learning institute part ends */
+
+/* Ready to join part starts */
+.ready-to-join {
+    background-color: #289BDE;
+    padding: 80px 100px;
+    margin: 130px 0;
+}
+
+.ready-to-join h1,
+.ready-to-join p {
+    color: white;
+}
+
+.modal-btn {
+    background-color: white;
+    border-color: white;
+}
+
+/* Ready to join part ends */
