@@ -90,7 +90,8 @@
 .ready-to-join p,
 .students-title-info p,
 .student .card .card-text,
-.feedback-title-info p {
+.feedback-title-info p,
+.feedback-info-details p {
     font-size: 16px;
     line-height: 30px;
     color: #777777;
@@ -173,3 +174,24 @@
 }
 
 /* Students part ends */
+
+/* Feedback part starts */
+.feedback-info-details {
+    border: 1px solid #E8E8E8;
+}
+
+.feedback-info-details .rating {
+    color: #F59E0B;
+}
+
+.feedback-info-details .rating .muted-star {
+    color: #FCD34D;
+}
+
+.feedback-info-details h6 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+/* Feedback part ends */
