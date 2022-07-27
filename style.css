@@ -1,0 +1,31 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar starts */
+.navbar-brand {
+    color: #4A4A4A;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.nav-link {
+    color: #777777;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 10px;
+}
+
+.register-btn {
+    font-size: 20px;
+    line-height: 30px;
+    color: #289BDE;
+}
+
+/* Navbar ends */
