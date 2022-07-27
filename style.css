@@ -71,20 +71,26 @@
 /* Banner part ends */
 
 /* Courses part starts */
-.discover-courses .courses-title-info {
+.discover-courses .courses-title-info,
+.feedback-title-info {
     margin: 130px 230px 70px;
 }
 
 .discover-courses .courses-title-info h1,
 .learning-institute-info-details h1,
-.ready-to-join h1 {
+.ready-to-join h1,
+.students-title-info h1,
+.feedback-title-info h1 {
     font-size: 45px;
     line-height: 60px;
     color: #1D1D1D;
 }
 
 .discover-courses .courses-title-info p,
-.ready-to-join p {
+.ready-to-join p,
+.students-title-info p,
+.student .card .card-text,
+.feedback-title-info p {
     font-size: 16px;
     line-height: 30px;
     color: #777777;
@@ -154,3 +160,16 @@
 }
 
 /* Ready to join part ends */
+
+/* Students part starts */
+.students-title-info {
+    padding-right: 50%;
+}
+
+.student .card .card-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+
+/* Students part ends */
