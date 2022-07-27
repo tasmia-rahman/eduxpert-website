@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Navbar starts */
+/* Navbar part starts */
 .navbar-brand {
     color: #4A4A4A;
     font-size: 40px;
@@ -22,15 +22,16 @@
     margin: 0 10px;
 }
 
-.register-btn {
+.register-btn,
+.more-courses-btn {
     font-size: 20px;
     line-height: 30px;
     color: #289BDE;
 }
 
-/* Navbar ends */
+/* Navbar part ends */
 
-/* Banner starts */
+/* Banner part starts */
 .carousel-item {
     position: relative;
 }
@@ -42,7 +43,6 @@
     left: 0;
     right: 0;
     background: rgba(29, 29, 29, 0.7);
-    border-radius: 5px;
 }
 
 .carousel-caption {
@@ -62,4 +62,57 @@
     color: #F4F4F4;
 }
 
-/* Banner ends */
+.carousel-caption a {
+    background: #289BDE;
+    border: 1px solid #289BDE;
+}
+
+/* Banner part ends */
+
+/* Courses part starts */
+.discover-courses .title-info {
+    margin: 130px 230px 70px;
+}
+
+.discover-courses .title-info h1 {
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.discover-courses .title-info p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.course {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.course .course-info h3 {
+    font-size: 20px;
+    line-height: 38px;
+    color: #4A4A4A;
+}
+
+.course-info .course-info-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.course-info .price {
+    font-size: 18px;
+    line-height: 27px;
+    color: #289BDE;
+}
+
+.more-courses-btn {
+    color: white;
+    background-color: #289BDE;
+    border: 1px solid #289BDE;
+}
+
+/* Courses part ends */
