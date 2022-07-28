@@ -283,19 +283,19 @@ Media queries for mobile device
 
     .carousel-caption h1 {
         padding: 0 3rem;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .carousel-caption p {
         padding: 0;
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 10px;
+        line-height: 16px;
     }
 
     .carousel-caption a {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 8px;
+        line-height: 8px;
     }
 
     .title-info {
