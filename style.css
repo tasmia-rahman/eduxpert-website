@@ -71,14 +71,18 @@
 /* Banner part ends */
 
 /* Courses part starts */
-.title-info {
-    margin: 130px 230px 70px;
+.title-info,
+.companies-title-info {
+    margin: 0 20%;
+    margin-top: 130px;
+    margin-bottom: 7px;
 }
 
 .title-info h1,
 .learning-institute-info-details h1,
 .ready-to-join h1,
-.students-title-info h1 {
+.students-title-info h1,
+.companies-title-info h1 {
     font-size: 45px;
     line-height: 60px;
     color: #1D1D1D;
@@ -192,3 +196,21 @@
 }
 
 /* Feedback part ends */
+
+/* FAQ part starts */
+.accordion {
+    padding: 0 10%;
+}
+
+.accordion-header {
+    background: rgba(40, 155, 222, 0.1);
+}
+
+/* FAQ part ends */
+
+/* Companies part starts */
+.companies-images img {
+    max-width: 145px;
+}
+
+/* Companies part ends */
