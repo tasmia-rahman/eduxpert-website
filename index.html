@@ -15,6 +15,7 @@
   </head>
 
   <body>
+    <!-- Header part starts -->
     <header>
       <div class="container">
         <!-- Navbar part starts -->
@@ -27,22 +28,22 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link mx-2" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link mx-2" href="#">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Deals</a>
+                <a class="nav-link mx-2" href="#">Deals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Success</a>
+                <a class="nav-link mx-2" href="#">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link mx-2" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
+                <a class="nav-link mx-2" href="#">Register</a>
               </li>
             </ul>
             <button class="btn btn-outline-primary fw-semibold register-btn" type="button">Register</button>
@@ -54,39 +55,39 @@
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
               <!-- Single item -->
-              <div class="carousel-item active">
-                <div class="overlay rounded-1"></div>
+              <div class="carousel-item position-relative active">
+                <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 rounded-1"></div>
                 <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                   <h1 class="fw-semibold">Get Started Digital Learning</h1>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page
                     when looking at its
                     layout.</p>
-                  <a href="#" class="btn btn-primary rounded-1">Get Started</a>
+                  <a href="#" class="btn btn-primary border rounded-1">Get Started</a>
                 </div>
               </div>
               <!-- Single item -->
-              <div class="carousel-item">
-                <div class="overlay rounded-1"></div>
+              <div class="carousel-item position-relative">
+                <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 rounded-1"></div>
                 <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                   <h1 class="fw-semibold">Get Started Digital Learning</h1>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page
                     when looking at its
                     layout.</p>
-                  <a href="#" class="btn btn-primary rounded-1">Get Started</a>
+                  <a href="#" class="btn btn-primary border rounded-1">Get Started</a>
                 </div>
               </div>
               <!-- Single item -->
-              <div class="carousel-item">
-                <div class="overlay rounded-1"></div>
+              <div class="carousel-item position-relative">
+                <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 rounded-1"></div>
                 <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                   <h1 class="fw-semibold">Get Started Digital Learning</h1>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page
                     when looking at its
                     layout.</p>
-                  <a href="#" class="btn btn-primary rounded-1">Get Started</a>
+                  <a href="#" class="btn btn-primary border rounded-1">Get Started</a>
                 </div>
               </div>
             </div>
@@ -105,11 +106,13 @@
         <!-- Banner part ends -->
       </div>
     </header>
+    <!-- Header part ends -->
+    <!-- Main part starts -->
     <main>
       <div class="container">
         <!-- Courses part starts -->
         <section class="discover-courses">
-          <div class="title-info text-center">
+          <div class="title-info mb-5 text-center">
             <h1 class="fw-semibold">Discover Our Popular Courses</h1>
             <p>It is a long established fact that a reader will be distracted by the readable content
               of a page when looking at its layout.</p>
@@ -118,92 +121,135 @@
             <div class="row">
               <!-- Single course -->
               <div class="col-12 col-md-12 col-lg-6 mb-4">
-                <div class="course d-flex gap-3">
-                  <div class="course-img">
-                    <img src="images/course/course-1.png" alt="">
-                  </div>
-                  <div class="course-info">
-                    <h3 class="fw-semibold">Fundamental Of UI/UX Design</h3>
-                    <p class="course-info-text">Some quick example text to build on the card title and make up the bulk
-                      of the card.</p>
-                    <p class="price fw-semibold">Price : 201</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Single course -->
-              <div class="col-12 col-md-12 col-lg-6 mb-4">
-                <div class="course d-flex gap-3">
-                  <div class="course-img">
-                    <img src="images/course/course-2.png" alt="">
-                  </div>
-                  <div class="course-info">
-                    <h3 class="fw-semibold">Javascript Basic to advanced</h3>
-                    <p class="course-info-text">Some quick example text to build on the card title and make up the bulk
-                      of the card.</p>
-                    <p class="price fw-semibold">Price : 201</p>
+                <div class="course border rounded-1 d-flex gap-3">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 gap-3">
+                      <div class="course-img">
+                        <img src="images/course/course-1.png" class="w-100" alt="">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8 pt-3">
+                      <div class="course-info">
+                        <h3 class="fw-semibold">Fundamental Of UI/UX Design</h3>
+                        <p class="course-info-text">Some quick example text to build on the card title and make up the
+                          bulk
+                          of the card.</p>
+                        <p class="price fw-semibold">Price : 201</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <!-- Single course -->
               <div class="col-12 col-md-12 col-lg-6 mb-4">
-                <div class="course d-flex gap-3">
-                  <div class="course-img">
-                    <img src="images/course/course-3.png" alt="">
-                  </div>
-                  <div class="course-info">
-                    <h3 class="fw-semibold">Fullstack Web Development</h3>
-                    <p class="course-info-text">Some quick example text to build on the card title and make up the bulk
-                      of the card.</p>
-                    <p class="price fw-semibold">Price : 201</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Single course -->
-              <div class="col-12 col-md-12 col-lg-6 mb-4">
-                <div class="course d-flex gap-3">
-                  <div class="course-img">
-                    <img src="images/course/course-4.png" alt="">
-                  </div>
-                  <div class="course-info">
-                    <h3 class="fw-semibold">Digital Marketing</h3>
-                    <p class="course-info-text">Some quick example text to build on the card title and make up the bulk
-                      of the card.</p>
-                    <p class="price fw-semibold">Price : 201</p>
+                <div class="course border rounded-1 d-flex gap-3">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 gap-3">
+                      <div class="course-img">
+                        <img src="images/course/course-2.png" class="w-100" alt="">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8 pt-3">
+                      <div class="course-info">
+                        <h3 class="fw-semibold">Javascript Basic to advanced</h3>
+                        <p class="course-info-text">Some quick example text to build on the card title and make up the
+                          bulk
+                          of the card.</p>
+                        <p class="price fw-semibold">Price : 201</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <!-- Single course -->
               <div class="col-12 col-md-12 col-lg-6 mb-4">
-                <div class="course d-flex gap-3">
-                  <div class="course-img">
-                    <img src="images/course/course-5.png" alt="">
-                  </div>
-                  <div class="course-info">
-                    <h3 class="fw-semibold">Photography Basic Rules</h3>
-                    <p class="course-info-text">Some quick example text to build on the card title and make up the bulk
-                      of the card.</p>
-                    <p class="price fw-semibold">Price : 201</p>
+                <div class="course border rounded-1 d-flex gap-3">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 gap-3">
+                      <div class="course-img">
+                        <img src="images/course/course-3.png" class="w-100" alt="">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8 pt-3">
+                      <div class="course-info">
+                        <h3 class="fw-semibold">Fullstack Web Development</h3>
+                        <p class="course-info-text">Some quick example text to build on the card title and make up the
+                          bulk
+                          of the card.</p>
+                        <p class="price fw-semibold">Price : 201</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <!-- Single course -->
               <div class="col-12 col-md-12 col-lg-6 mb-4">
-                <div class="course d-flex gap-3">
-                  <div class="course-img">
-                    <img src="images/course/course-6.png" alt="">
-                  </div>
-                  <div class="course-info">
-                    <h3 class="fw-semibold">Motion Graphics</h3>
-                    <p class="course-info-text">Some quick example text to build on the card title and make up the bulk
-                      of the card.</p>
-                    <p class="price fw-semibold">Price : 201</p>
+                <div class="course border rounded-1 d-flex gap-3">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 gap-3">
+                      <div class="course-img">
+                        <img src="images/course/course-4.png" class="w-100" alt="">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8 pt-3">
+                      <div class="course-info">
+                        <h3 class="fw-semibold">Digital Marketing</h3>
+                        <p class="course-info-text">Some quick example text to build on the card title and make up the
+                          bulk
+                          of the card.</p>
+                        <p class="price fw-semibold">Price : 201</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+              <!-- Single course -->
+              <div class="col-12 col-md-12 col-lg-6 mb-4">
+                <div class="course border rounded-1 d-flex gap-3">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 gap-3">
+                      <div class="course-img">
+                        <img src="images/course/course-5.png" class="w-100" alt="">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8 pt-3">
+                      <div class="course-info">
+                        <h3 class="fw-semibold">Photography Basic Rules</h3>
+                        <p class="course-info-text">Some quick example text to build on the card title and make up the
+                          bulk
+                          of the card.</p>
+                        <p class="price fw-semibold">Price : 201</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single course -->
+              <div class="col-12 col-md-12 col-lg-6 mb-4">
+                <div class="course border rounded-1 d-flex gap-3">
+                  <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 gap-3">
+                      <div class="course-img">
+                        <img src="images/course/course-6.png" class="w-100" alt="">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-8 pt-3">
+                      <div class="course-info">
+                        <h3 class="fw-semibold">Motion Graphics</h3>
+                        <p class="course-info-text">Some quick example text to build on the card title and make up the
+                          bulk
+                          of the card.</p>
+                        <p class="price fw-semibold">Price : 201</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
           <div class="text-center my-5">
-            <a href="#" class="btn btn-primary fw-semibold rounded-1 more-btn">See More Courses</a>
+            <a href="#" class="btn btn-primary fw-semibold border rounded-1 more-btn">See More Courses</a>
           </div>
         </section>
         <!-- Courses part ends -->
@@ -217,28 +263,27 @@
             </div>
             <div class="col-sm-12 col-md-7 col-lg-7 ps-0">
               <div class="learning-institute-info p-5">
-                <h1>Explore The elearning Institute</h1>
-                <p>Some of the best online learning platforms include Coursera, Skillshare, Udemy, Codecademy, Edx,
-                  Pluralsight, Future Learn, and Moodle. Apart from online learning platforms, we also have online
-                  course platforms like LearnWorlds, Teachable, Thinkific, Kajabi, and Podia.<br><br> Those, are
-                  leading a fast-growing elearning industry, especially after Covid-19.
-                  An unbreakable piece of evidence is the increasing number of people becoming interested in online
-                  learning for both learning and teaching purposes–either to learn a new skill or to teach online.</p>
+                <h1 class="mb-4">Explore The elearning Institute</h1>
+                <p>Some of the best online learning platforms include Coursera, Skillshare, Udemy,
+                  Codecademy, Edx, Pluralsight, Future Learn, and Moodle. Apart from online learning platforms, </p>
+                <p class="text-overflow" title="">Those,are leading a fast-growing elearning industry, especially after
+                  Covid-19. An unbreakable piece of evidence is the increasing number of people becoming interested in
+                  online learning.</p>
                 <div class="row mt-4 learning-institute-info-details">
                   <div class="col-6 col-md-6 col-lg-4">
-                    <h1>3.2K+</h1>
+                    <h1 class="fw-semibold">3.2K+</h1>
                     <p>Online Course</p>
                   </div>
                   <div class="col-6 col-md-6 col-lg-4">
-                    <h1>600+</h1>
+                    <h1 class="fw-semibold">600+</h1>
                     <p>Expert Member</p>
                   </div>
                   <div class="col-6 col-md-6 col-lg-4">
-                    <h1>1K+</h1>
+                    <h1 class="fw-semibold">1K+</h1>
                     <p>Rating and Review</p>
                   </div>
                 </div>
-                <a href="#" class="btn btn-primary fw-semibold rounded-1 more-btn">Read More</a>
+                <a href="#" class="btn btn-primary fw-semibold border rounded-1 more-btn mt-3 mb-5">Read More</a>
               </div>
             </div>
           </div>
@@ -283,7 +328,7 @@
                         </form>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-primary more-btn">Register Now</button>
+                        <button type="button" class="btn btn-primary border more-btn">Register Now</button>
                       </div>
                     </div>
                   </div>
@@ -294,7 +339,7 @@
         </section>
         <!-- Ready to Join part ends -->
         <!-- Students part starts -->
-        <section class="students">
+        <section class="students mt-4">
           <div class="students-title-info mb-5">
             <h1 class="fw-semibold">Meet Our Successfull Students</h1>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -304,7 +349,7 @@
             <!-- Single student -->
             <div class="col-12 col-md-6 col-lg-3">
               <div class="student">
-                <div class="card">
+                <div class="card mb-4">
                   <img src="images/student/student-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-semibold">Awlad Hossain</h5>
@@ -318,7 +363,7 @@
             <!-- Single student -->
             <div class="col-12 col-md-6 col-lg-3">
               <div class="student">
-                <div class="card">
+                <div class="card mb-4">
                   <img src="images/student/student-2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-semibold">Jannatul Islam</h5>
@@ -332,7 +377,7 @@
             <!-- Single student -->
             <div class="col-12 col-md-6 col-lg-3">
               <div class="student">
-                <div class="card">
+                <div class="card mb-4">
                   <img src="images/student/student-3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-semibold">Imran Hossain</h5>
@@ -346,7 +391,7 @@
             <!-- Single student -->
             <div class="col-12 col-md-6 col-lg-3">
               <div class="student">
-                <div class="card">
+                <div class="card mb-4">
                   <img src="images/student/student-4.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title fw-semibold">Nishi Akter</h5>
@@ -358,22 +403,22 @@
               </div>
             </div>
           </div>
-          <div class="text-center my-5">
-            <a href="#" class="btn btn-primary fw-semibold rounded-1 more-btn">View all</a>
+          <div class="text-center my-5 d-md-none d-lg-block">
+            <a href="#" class="btn btn-primary fw-semibold border rounded-1 more-btn">View all</a>
           </div>
         </section>
         <!-- Students part ends -->
         <!-- Feedback part starts -->
         <section class="feedback">
-          <div class="title-info text-center">
+          <div class="title-info mb-5 text-center">
             <h1>Some Students Feedback</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout.</p>
+            <p class="mx-5">It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout.</p>
           </div>
           <div class="feedback-info">
             <div class="row">
               <div class="col-12 col-md-12 col-lg-6">
-                <div class="feedback-info-details p-5 rounded-1">
+                <div class="feedback-info-details p-5 border rounded-1 mb-4">
                   <div class="d-flex justify-content-between mb-4">
                     <img src="images/comma.png" alt="Comma">
                     <div class="rating">
@@ -397,7 +442,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-12 col-lg-6">
-                <div class="feedback-info-details p-5 rounded-1">
+                <div class="feedback-info-details p-5 border rounded-1 mb-4">
                   <div class="d-flex justify-content-between mb-4">
                     <img src="images/comma.png" alt="Comma">
                     <div class="rating">
@@ -422,14 +467,17 @@
               </div>
             </div>
           </div>
+          <div class="text-center my-5 d-lg-none">
+            <a href="#" class="btn btn-primary fw-semibold border rounded-1 more-btn">View all</a>
+          </div>
         </section>
         <!-- Feedback part ends -->
         <!-- FAQ part starts -->
         <section class="faq">
-          <div class="title-info text-center">
+          <div class="title-info mb-5 text-center">
             <h1 class="fw-semibold">Frequently Asked Questions</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout.</p>
+            <p class="mx-5">It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout.</p>
           </div>
           <div class="accordion" id="accordionExample">
             <!-- Single item -->
@@ -437,20 +485,16 @@
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
+                  What are the differences between flexbox and grid?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                  plugin adds
-                  the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as well
-                  as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+                  The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for
+                  layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout -
+                  rows, and columns at the same time. The two specifications share some common features, however, and if
+                  you have already learned how to use flexbox, the similarities should help you get to grips with Grid.
                 </div>
               </div>
             </div>
@@ -459,20 +503,15 @@
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                  What are the differences between bootstrap and tailwind?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin
-                  adds the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as
-                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+                  The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI
+                  kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have a default theme or built-in
+                  UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
                 </div>
               </div>
             </div>
@@ -481,42 +520,34 @@
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                  What is css box model?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin
-                  adds the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as
-                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+                  The CSS box model is a container that contains multiple properties including borders, margin, padding,
+                  and the content itself. It is used to create the design and layout of web pages. It can be used as a
+                  toolkit for customizing the layout of different elements. The web browser renders every element as a
+                  rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.
                 </div>
               </div>
             </div>
             <!-- Single item -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
+              <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What is a semantic tag?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin
-                  adds the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as
-                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+                  The HTML semantics refers to the tags that provide meaning to an HTML page rather than just
+                  presentation. It makes HTML more comprehensible by better defining the different sections and layout
+                  of web pages. The core characteristic of a semantic element is that it clearly communicated its
+                  meaning to both the developer and the browser. These elements clearly define its content.
                 </div>
               </div>
             </div>
@@ -540,6 +571,8 @@
         <!-- Companies part ends -->
       </div>
     </main>
+    <!-- Main part ends -->
+    <!-- Footer part starts -->
     <footer class="mt-5 p-5 text-center">
       <h3 class="my-3">Eduxpert</h3>
       <p><small>Office 41, Zawaya Buildin, Ghala Muscat,<br> Sultanate of Oman</small></p>
@@ -559,6 +592,7 @@
         </a>
       </div>
     </footer>
+    <!-- Footer part ends -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"></script>

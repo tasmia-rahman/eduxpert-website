@@ -19,7 +19,6 @@
     color: #777777;
     font-size: 18px;
     line-height: 27px;
-    margin: 0 10px;
 }
 
 .register-btn,
@@ -33,16 +32,7 @@
 /* Navbar part ends */
 
 /* Banner part starts */
-.carousel-item {
-    position: relative;
-}
-
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background: rgba(29, 29, 29, 0.7);
 }
 
@@ -65,7 +55,7 @@
 
 .carousel-caption a {
     background: #289BDE;
-    border: 1px solid #289BDE;
+    border-color: #289BDE !important;
 }
 
 /* Banner part ends */
@@ -74,7 +64,6 @@
 .title-info {
     margin: 0 20%;
     margin-top: 130px;
-    margin-bottom: 7px;
 }
 
 .title-info h1,
@@ -98,8 +87,7 @@
 }
 
 .course {
-    border: 1px solid #E8E8E8;
-    border-radius: 5px;
+    border-color: #E8E8E8;
 }
 
 .course .course-info h3 {
@@ -123,7 +111,7 @@
 .more-btn {
     color: white;
     background-color: #289BDE;
-    border: 1px solid #289BDE;
+    border-color: #289BDE;
 }
 
 /* Courses part ends */
@@ -131,7 +119,6 @@
 /* Learning institute part starts */
 .learning-institute-info {
     background: #F4FAFD;
-
 }
 
 .learning-institute-info-details p {
@@ -146,7 +133,7 @@
 /* Ready to join part starts */
 .ready-to-join {
     background-color: #289BDE;
-    margin: 130px 0;
+    margin: 100px 0;
 }
 
 .ready-to-join h1,
@@ -176,7 +163,7 @@
 
 /* Feedback part starts */
 .feedback-info-details {
-    border: 1px solid #E8E8E8;
+    border-color: #E8E8E8;
 }
 
 .feedback-info-details .rating {
@@ -233,3 +220,123 @@ footer {
 }
 
 /* Footer part ends */
+
+/* ----------------------------
+Media queries for tablet device 
+-------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        padding-bottom: 3rem;
+    }
+
+    .carousel-caption h1 {
+        padding: 0 3rem;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .carousel-caption p {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .title-info {
+        margin: 0;
+        margin-top: 80px;
+    }
+
+    .title-info h1,
+    .learning-institute-info-details h1,
+    .ready-to-join h1,
+    .students-title-info h1,
+    .companies-title-info h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .learning-institute-img img {
+        height: 768px;
+    }
+
+    .text-overflow {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .ready-to-join {
+        text-align: center;
+    }
+
+    .students-title-info {
+        padding-right: 33%;
+    }
+}
+
+/* ----------------------------
+Media queries for mobile device 
+-------------------------------*/
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        padding-bottom: 0;
+    }
+
+    .carousel-caption h1 {
+        padding: 0 3rem;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .carousel-caption p {
+        padding: 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .carousel-caption a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .title-info {
+        margin: 0;
+        margin-top: 80px;
+    }
+
+    .title-info h1,
+    .learning-institute-info-details h1,
+    .ready-to-join h1,
+    .students-title-info h1,
+    .companies-title-info h1 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .title-info p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .course,
+    .learning-institute,
+    .ready-to-join,
+    .students,
+    .feedback {
+        margin: 0 20px;
+    }
+
+    .text-overflow {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .ready-to-join {
+        text-align: center;
+    }
+
+    .students-title-info {
+        text-align: center;
+        padding-right: 0;
+    }
+}
