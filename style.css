@@ -71,8 +71,7 @@
 /* Banner part ends */
 
 /* Courses part starts */
-.title-info,
-.companies-title-info {
+.title-info {
     margin: 0 20%;
     margin-top: 130px;
     margin-bottom: 7px;
@@ -147,7 +146,6 @@
 /* Ready to join part starts */
 .ready-to-join {
     background-color: #289BDE;
-    padding: 80px 100px;
     margin: 130px 0;
 }
 
@@ -209,8 +207,29 @@
 /* FAQ part ends */
 
 /* Companies part starts */
+.companies-title-info {
+    margin: 0 15%;
+    margin-top: 130px;
+}
+
 .companies-images img {
     max-width: 145px;
+    margin-bottom: 80px;
 }
 
 /* Companies part ends */
+
+/* Footer part starts */
+footer {
+    background-color: #161616;
+    color: white;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background-color: #242424;
+    color: white;
+}
+
+/* Footer part ends */
